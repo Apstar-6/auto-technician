@@ -44,8 +44,17 @@ a:hover{
   text-decoration-style: dotted
   }
 
+/*CHECK ME OUT! link special styling */
 a:active{
   color: saddlebrown;
   text-decoration-color: white;
-  
 }
+a{
+font-family:san-serif;
+  letter-spacing:1px;
+font-size:10px;
+  color:white;
+  margin:10px;
+}
+
+  
