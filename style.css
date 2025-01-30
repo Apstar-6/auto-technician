@@ -1,16 +1,25 @@
 body {
-  background: white;
+  background: black;
 }
 h3{
   font-weight:bold;
     color: blue;
   text-align: left;
   font-size:16px;
-  }
-h1{
-  font-weight: bold
+}
+h4{
+  font-weight: bold;
+    color:aquamarine;
+  text-align: left;
+  font-size: 10px;
   
 }
+h5{
+  color: antiquewhite;
+  text-align: left
+  
+}
+
 p {
   color: black;
   font-size:14px;
@@ -20,8 +29,20 @@ p {
   float: left;
 }
 .links{
-  text-align: center;
-  margin-bottom: 50px;
+  text-align: center;margin-bottom: 50px;
+}
+.third{
+  float:left
+}
+.fourth{
+  float: right;
+  
+}
+.fifth{
+  float: left;
+}
+li{
+  color: antiquewhite;
 }
 h1 {
   font-weight: bold;
@@ -37,24 +58,30 @@ img{
   border-radius:10px;
   height: 250px;
 }
+  
+p{
+  color: blue;
+  font-size:14px;
+  text-align: center;
+  
+}
 
 a:hover{
   color: black;
   font-size:24px;
-  text-decoration-style: dotted
+  text-decoration-style: dotted;
   }
+/* LEARN MORE? link special*/
 
-/*CHECK ME OUT! link special styling */
 a:active{
   color: saddlebrown;
   text-decoration-color: white;
-}
-a{
-font-family:san-serif;
-  letter-spacing:1px;
-font-size:10px;
-  color:white;
-  margin:10px;
-}
-
   
+}
+/*basic link style*/
+a{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: white;
+}
